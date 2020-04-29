@@ -9,7 +9,7 @@ They'd like a data engineer to create a Postgres database with tables designed t
 
   ### Important **pip** packages used in this project
   * [psycopg2](https://pypi.org/project/psycopg2/)
-  * [Pandas]((https://pypi.org/project/pandas/))
+  * [Pandas](https://pypi.org/project/pandas/)
 
 ## **Project Overview**
 In this project, I applied what I learned on data modeling with Postgres and build an ETL pipeline using Python. To complete the project, I defined fact and dimension tables for a star schema for a particular analytic focus, and wrote an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
