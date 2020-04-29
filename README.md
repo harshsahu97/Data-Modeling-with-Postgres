@@ -34,7 +34,18 @@ log_data/2018/11/2018-11-13-events.json
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
 ![alt](img/log-data.png)
 
+#### Schema for Song Play Analysis
+![alt](img/diagram.png)
+Using the song and log datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
+ 
+### Fact Table
+songplays - records in log data associated with song plays i.e. records with page NextSong
 
+### Dimension Tables
+1. users - users in the app
+2. songs - songs in music database
+3. artists - artists in music database
+4. time - timestamps of records in songplays broken down into specific units
 
 ## If you're running into issues:
 contact me on [twitter](https://www.twitter.com/harshsahu97/)
